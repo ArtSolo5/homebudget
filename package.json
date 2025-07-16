@@ -1,0 +1,26 @@
+{
+  "name": "homebudget",
+  "version": "1.0.0",
+  "description": "Application that helps manage and organize budget between your family or homies.",
+  "homepage": "https://github.com/ArtSolo5/homebudget#readme",
+  "bugs": {
+    "url": "https://github.com/ArtSolo5/homebudget/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtSolo5/homebudget.git"
+  },
+  "license": "ISC",
+  "author": "Artem Soloviov",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter backend dev",
+    "build": "pnpm -r run build"
+  },
+  "private": "true",
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

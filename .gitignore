@@ -1,0 +1,33 @@
+# node
+node_modules/
+.pnpm-debug.log
+.pnpm-store/
+
+# dist
+dist/
+apps/**/dist/
+packages/**/dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env
+.env.*.local
+.env.local
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+
+# System
+.DS_Store
+Thumbs.db
