@@ -16,10 +16,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm --filter backend dev",
-    "build": "pnpm -r run build"
+    "build": "pnpm -r run build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "private": "true",
   "devDependencies": {
+    "prettier": "^3.6.2",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   }
