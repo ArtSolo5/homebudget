@@ -55,7 +55,11 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
-  packages/shared: {}
+  packages/shared:
+    devDependencies:
+      '@types/node':
+        specifier: ^24.0.14
+        version: 24.0.14
 
 packages:
 

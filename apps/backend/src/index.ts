@@ -2,6 +2,8 @@ import Fastify from 'fastify';
 
 const app = Fastify();
 
+const a = 'test';
+
 app.get('/', () => {
   return { hello: 'world!' };
 });
